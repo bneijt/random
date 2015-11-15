@@ -35,7 +35,7 @@ Library
     exposed-modules:
         System.Random
     extensions:	CPP
-    GHC-Options: -O2
+    ghc-options: -O2 -Wall -fwarn-tabs -funbox-strict-fields
     build-depends: base >= 3 && < 5, time
 
 source-repository head
